@@ -157,48 +157,47 @@ public class Help implements Program {
 		"When you run the player, a lyric window pops up, and\n" +
 		"displays the lyrics output in the lyrics window.\n"),
 		// TODO 8 페이지
-		("(6) 주석 달기\n" +
-		"음악이 길고 커지고 복잡해지면\n" +
-		"음악 파일을 설명할 필요가 있습니다.\n" +
+		("(6) Commenting\n" +
+		"If your music is long, grows, or gets complicated,\n" +
+		"you need to explain your music files.\n" +
 		"\n" +
-		"그래서 " + COMMON_PROGRAM_NAME + "에 주석을 달게 만들어주는 기능을 추가했습니다\n" +
-		"주석 달기는 이와 같이 활용하시는 것이 더 좋습니다.\n" +
-		"1. 중간중간에 해당 마디의 수 달기 (예) (**** 77 마디 ****)\n" +
-		"2. 읽기 어려운 마디 설명하기\n" +
+		"So I added the function to add comments in " + COMMON_PROGRAM_NAME + ".\n" + 
+		"It is better to use comments like this.\n" +
+		"1. To describe the number of the node in the middle. (ex) (**** 77th node ****)\n" +
+		"2. To describe the hard-to-read node.\n" +
 		"\n" +
-		"주석은 별 표(*)를 양쪽에 여러 개를 달아서 강조할 수 있습니다.\n" +
+		"Annotations can be highlighted by placing asterisks(*) on both sides.\n" +
 		"\n" +
-		"주석을 추가할 때에는 가사 출력과 같은 위치에서\n" +
-		"주석을 달 내용을 입력한 다음\n" +
-		"주석을 넣을 위치를 선택한 후에\n" +
-		"주석 달기를 클릭하시면 됩니다.\n" +
+		"When you add a comment,\n" +
+		"you can type the comment in the same place as the 'Lyrics Output',\n" +
+		"select the place to comment, and click 'Commenting'.\n" + 
 		"\n" +
-		"그러면 다음과 같은 것이 추가됩니다.\n" +
-		"(주석)\n"),
+		"This will add the following:\n" +
+		"(Comment)\n"),
 		// TODO 9 페이지
-		("(7) 파일 분할\n" +
-		"파일 분할은 2개 이상의 파일로 나누는 것을 말합니다.\n" +
-		"2개 이상의 파트가 있는 경우 파일 분할을 하시는 것이 좋습니다.\n" +
+		("(7) File Splitting\n" +
+		"File splitting refers to split into two or more files.\n" +
+		"If you have more than one part, I recommend splitting the file.\n" +
 		"\n" +
-		"에디터에 보시면 파일 메뉴에서 새로 만들기(다음 파일)이라는 메뉴가 있는데\n" +
-		"이 메뉴를 클릭하시면 자동으로 다음 파일이 추가됩니다.\n" +
-		"그래서 새로 파일이 추가되어 파일이 분할된 것입니다.\n" +
+		"In the editor, there is a menu called 'New (Next File)' in the File menu,\n" +
+		"When you click this menu, the next file is automatically added.\n" +
+		"That's why the file has been split and a new file has been added.\n" +
 		"\n" +
-		"그리고 분할된 파일을 왔다갔다 하고 싶다면\n" +
-		"열기(이전 파일)과 (다음 파일)을 이용하시면\n" +
-		"다른 분할된 파일로 이동할 수 있습니다.\n" +
+		"And if you want to move back and forth between the split files,\n" +
+		"you can move to another split file\n" +
+		"by using Open (Previous File) and (Next File).\n" +
 		"\n" +
-		"잠깐: 새로 만들기는 분할된 파일에서 벗어나 \n" +
-		"       \'제목 없음\' 상태로 새로 만들어집니다.\n" +
-		"       열기와 열기(이전/다음 파일)의 차이는\n" +
-		"       열기같은 경우 다른 분할된 파일을 이동할 수도 있지만\n" +
-		"       이름이 완전히 다른 파일을 선택해서 열 수도 있습니다.\n" +
-		"       그러나 열기(이전/다음 파일)같은 경우\n" +
-		"       분할된 파일을 왔다갔다 할 수 밖에 없습니다.\n" +
+		"WAIT: The new file will be created with \n" +
+		"       the 'Untitled' status off the split file.\n" +
+		"       The difference between Open and Open (Previous/Next File) is\n" +
+		"       that if you 'Open' it, you can move other divided files,\n" +
+		"       but you can also open a file with a completely different name.\n" +
+		"       However, if you want to 'Open (Previous / Next File)',\n" +
+		"       you can only go back and forth between divided files.\n" +
 		"\n" +
-		"       그리고 저장 기능 같은 경우\n" +
-		"       분할된거나 안된거나에 상관없이 하나의 파일만 저장되고\n" +
-		"       다른 이름으로 저장하기도 하나의 파일만 다른 이름으로 저장할 수 있습니다.\n")
+		"       And in the case of the save function,\n" +
+		"       only one file is saved regardless of whether it is divided or not,\n" +
+		"       and 'Save As' also allows you to save only one file with a different name.\n")
 	};
 
 	private static final String[] CONTENTS_KOREAN = {
